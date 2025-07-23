@@ -12,7 +12,7 @@ if(!Keypair) {
 console.log(`Keypair: ${Keypair}`);
 const connection = new Connection(clusterApiUrl('devnet'));
 const OWNER = getKeypairFromEnvironment('KEYPAIR');
-console.log(`Public key: ${OWNER.publicKey.toBase58()}`);
+
 const token = await createMint(connection,OWNER, OWNER.publicKey, null, 2);
 const link = getExplorerLink('address', token.toString(), 'devnet');
 
