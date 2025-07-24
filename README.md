@@ -1,4 +1,4 @@
-# Solana-Rust-Typescript
+# Solana-Typescript
 
 This is my diary to recap the solana in typescript using library @solana/web3.js like learned a topis 
 1) how we can generate the key pair in solana web3.
